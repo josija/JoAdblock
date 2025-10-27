@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="icons/icon48.png" alt="Logo" class="logo">
+      <h1>Jo Adblock</h1>
+    </div>
+
+    <div class="stats-section">
+      <div class="stat-card">
+        <div class="stat-number" id="ads-blocked">0</div>
+        <div class="stat-label">Ads Blocked (Live)</div>
+        <button id="reset-live-counter" style="margin-top: 8px; padding: 4px 8px; font-size: 10px; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3); border-radius: 4px; color: white; cursor: pointer;">Reset</button>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" id="sites-protected">0</div>
+        <div class="stat-label">Sites Protected</div>
+      </div>
+    </div>
+
+    <div class="toggle-section">
+      <div class="toggle-container">
+        <span class="toggle-label">Ad Blocker</span>
+        <div>
+          <span class="toggle-status" id="toggle-status">ON</span>
+          <label class="switch">
+            <input type="checkbox" id="main-toggle" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <h3>Settings</h3>
+      <div class="setting-item">
+        <label>
+          <input type="checkbox" id="block-youtube-ads" checked>
+          Block YouTube Ads
+        </label>
+      </div>
+      <div class="setting-item">
+        <label>
+          <input type="checkbox" id="block-popups" checked>
+          Block Pop-ups
+        </label>
+      </div>
+      <div class="setting-item">
+        <label>
+          <input type="checkbox" id="block-trackers" checked>
+          Block Trackers
+        </label>
+      </div>
+    </div>
+
+    <div class="custom-url-section">
+      <h3>Custom Whitelist</h3>
+      <div class="url-input-container">
+        <input type="text" id="custom-url" placeholder="Enter URL to whitelist (e.g., youtube.com)">
+        <button id="add-url">Add</button>
+      </div>
+      <div class="custom-url-list" id="url-list">
+        <div class="custom-url-item" style="color: #999; font-style: italic; background: white;">
+          No URLs in whitelist
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Protecting your browsing experience</p>
+      <p class="footer-note">Powered by Jo Adblock</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
