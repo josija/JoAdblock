@@ -1,6 +1,6 @@
 # Jo Adblock Privacy Policy
 
-**Last Updated: October 27, 2024**
+**Last Updated: October 27, 2025**
 
 ## Introduction
 
@@ -86,4 +86,4 @@ By using Jo Adblock, you consent to this Privacy Policy.
 
 **Made with ❤️ by Joseph A.**
 
-Copyright © 2024 Joseph A. All rights reserved.
+Copyright © 2025Joseph A. All rights reserved.
